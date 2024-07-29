@@ -1,6 +1,6 @@
 # Campo de estrellas
 
-<p>Campo de estrellas en movimiento y música de fondo, creado con HTML, CSS y JavaScript. </p>
+<p>Campo de estrellas en movimiento, creado con HTML, CSS y JavaScript. </p>
 
 <div align="center">
   
