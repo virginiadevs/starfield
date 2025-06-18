@@ -1,6 +1,39 @@
-const COLORS = ["#fff2", "#fff4", "#fff7", "#fffc"];
 const audio = document.querySelector(".space-song");
-audio.volume = 0.5;
+audio.volume = 0;
+audio.pause();
+
+document.getElementById("toggleBtn").addEventListener("click", () => {
+    const icon = document.querySelector(".fas");
+
+    if(icon.classList.contains("fa-circle-play")) {
+        let fadeInterval = setInterval(() => {
+            if(audio.volume < 0.9) {
+                audio.volume += 0.1; // Sube el volumen gradualmente
+            }
+            else {
+                audio.volume = 1;
+                audio.play(); // Activa cuando el volumen es 1
+                clearInterval(fadeInterval);
+            }
+        }, 50);
+        icon.classList.replace("fa-circle-play", "fa-circle-pause");
+    }
+    else {
+        let fadeInterval = setInterval(() => {
+            if(audio.volume > 0.1) {
+                audio.volume -= 0.1; // Baja el volumen gradualmente
+            }
+            else {
+                audio.volume = 0;
+                audio.pause(); // Pausa cuando el volumen es 0
+                clearInterval(fadeInterval);
+            }
+        }, 100);
+        icon.classList.replace("fa-circle-pause", "fa-circle-play");
+    }
+});
+
+const COLORS = ["#fff2", "#fff4", "#fff7", "#fffc"];
 
 const generateSpaceLayer = (size, selector, totalStars, duration) => {
     const layer = [];
