@@ -1,21 +1,3 @@
 # Campo de estrellas
 
-<p>Campo de estrellas en movimiento, creado con HTML, CSS y JavaScript. </p>
-
-<div align="center">
-  
-  <a href="https://virginiadevs.github.io/starfield">
-
-  ![starfield](https://github.com/user-attachments/assets/406c3ac6-41a4-4554-bdd6-7491abb08976)
-  
-  </a>
-  <p></p>
-</div>
-
-<div align="center">
-
-  ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat)
-  ![CSS3 Badge](https://img.shields.io/badge/CSS3-0277BD?logo=css3&logoColor=fff&style=flat)
-  ![JavaScript Badge](https://img.shields.io/badge/JavaScript-FFCC00?logo=javascript&logoColor=000&style=flat)
-
-</div>
+<p>Simulación de un campo de estrellas en movimiento, desarrollada con HTML, CSS y JavaScript. El proyecto incluye música ambiental con controles interactivos de reproducción y pausa, ofreciendo una experiencia inmersiva.</p>
