@@ -9,10 +9,9 @@ body {
     border-radius: 50%;
     border: none;
     padding: 3px 2px 1px;
+    cursor: pointer;
 
-    & i {
-        font-size: 25px;
-    }
+    & i { font-size: 25px; }
 }
 
 .container {
