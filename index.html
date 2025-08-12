@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campo de estrellas</title>
-    <meta name="author" content="VirginiaDevs">
+    <meta name="author" content="virginiadevs">
+    <meta name="description" content="Campo de estrellas en movimiento, ambientado con música inmersiva.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/ico" href="./favicon.ico">
@@ -12,7 +13,7 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- Mis estilos -->
+    <!-- Styles -->
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
@@ -27,10 +28,11 @@
         <source src="./space-song.mp3" type="audio/mp3">
     </audio>
 
-    <button id="toggleBtn">
+    <button id="toggleBtn" aria-label="Botón para iniciar y pausar la música ambiental">
         <i class="fas fa-circle-play"></i>
     </button>
 
+    <!-- Functions -->
     <script src="./index.js"></script>
 </body>
 </html>
